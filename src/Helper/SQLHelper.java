@@ -15,10 +15,10 @@ public class SQLHelper {
 
     public static SQLServerDataSource createDataSource() {
         SQLServerDataSource ds = new SQLServerDataSource();
-        ds.setServerName("localhost");
-        ds.setDatabaseName("VirgoHospital");
-        ds.setUser("Virgo");
-        ds.setPassword("pass123");
+        ds.setServerName("");
+        ds.setDatabaseName("");
+        ds.setUser("");
+        ds.setPassword("");
         
         return ds;
     }
