@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Eugen/Documents/NetBeansProjects/OutpatientManagementModel/src/UI/GUI/Nurses.java</file>
+            <file>file:/C:/Users/Eugen/Documents/NetBeansProjects/OutpatientManagementModel/src/UI/GUI/Doctors.java</file>
+            <file>file:/C:/Users/Eugen/Documents/NetBeansProjects/OutpatientManagementModel/src/DAL/SqlRepo.java</file>
+            <file>file:/C:/Users/Eugen/Documents/NetBeansProjects/OutpatientManagementModel/src/Model/Address.java</file>
+            <file>file:/C:/Users/Eugen/Documents/NetBeansProjects/OutpatientManagementModel/src/outpatientmanagementmodel/Outpatient.java</file>
+            <file>file:/C:/Users/Eugen/Documents/NetBeansProjects/OutpatientManagementModel/src/Helper/AutoCompletion.java</file>
+            <file>file:/C:/Users/Eugen/Documents/NetBeansProjects/OutpatientManagementModel/src/BLL/NursesManager.java</file>
+            <file>file:/C:/Users/Eugen/Documents/NetBeansProjects/OutpatientManagementModel/src/DAL/RepoFactory.java</file>
+            <file>file:/C:/Users/Eugen/Documents/NetBeansProjects/OutpatientManagementModel/src/UI/IView.java</file>
+            <file>file:/C:/Users/Eugen/Documents/NetBeansProjects/OutpatientManagementModel/src/Helper/Utils.java</file>
+            <file>file:/C:/Users/Eugen/Documents/NetBeansProjects/OutpatientManagementModel/src/UI/GUI/Administration.java</file>
+            <file>file:/C:/Users/Eugen/Documents/NetBeansProjects/OutpatientManagementModel/src/UI/Console/ConsoleView.java</file>
+            <file>file:/C:/Users/Eugen/Documents/NetBeansProjects/OutpatientManagementModel/src/UI/GUI/GuiView.java</file>
+        </group>
+    </open-files>
+</project-private>
