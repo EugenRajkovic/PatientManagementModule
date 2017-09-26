@@ -64,12 +64,14 @@ CREATE TABLE Patient
 GO
 
 --------------------------------------------------------------------------------------------------
+/*
 ALTER TABLE Doctor DROP CONSTRAINT FK_City
 ALTER TABLE Doctor ADD CONSTRAINT FK_Doctor_City FOREIGN KEY (CityID) REFERENCES City(IDCity)
 
 ALTER TABLE City DROP CONSTRAINT FK_Country
 ALTER TABLE City ADD CONSTRAINT FK_City_Country FOREIGN KEY (CountryID) REFERENCES Country(IDCountry)
 GO
+*/
 --------------------------------------------------------------------------------------------------
 
 

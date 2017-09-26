@@ -9,25 +9,16 @@ INSERT INTO City (Name, CountryID) VALUES ('Split',1)
 INSERT INTO City (Name, CountryID) VALUES ('Rijeka',1)
 INSERT INTO City (Name, CountryID) VALUES ('Osijek',1)
 
-SELECT * FROM City
-
 
 INSERT INTO Doctor(Name, Surname, Telephone, Email)
 SELECT TOP 20 Ime, Prezime, Email, Telefon FROM AdventureWorksOBP.dbo.Kupac 
+--Insert any 20 name,surname, telephone and email parameters from your database.
 
-
-SELECT * FROM Doctor
-
---Shema za brisanje svih zapisa iz tablice (truncate ne prolazi zbog foreign keyeva)
+--Deleting all records from certain table (cant use truncate because of foreign keys)
 ---------------------------------------
 --DELETE FROM Patient
 --DBCC CHECKIDENT ('Patient',RESEED, 0)
 ---------------------------------------
-
-
-SELECT * FROM ItemTypes
-
-SELECT * FROM Item
 
 INSERT INTO ItemTypes(Name) VALUES('Pregled')
 INSERT INTO ItemTypes(Name) VALUES('Lijek')
@@ -50,9 +41,3 @@ INSERT INTO Item(ItemTypeID, ItemDescription, Price) VALUES(1,'Head scan',600)
 INSERT INTO Item(ItemTypeID, ItemDescription, Price) VALUES(1,'Eye exam',100)
 INSERT INTO Item(ItemTypeID, ItemDescription, Price) VALUES(1,'Lungs exam',300)
 INSERT INTO Item(ItemTypeID, ItemDescription, Price) VALUES(1,'Colonoscopy',200)
-
-
-DELETE FROM Item WHERE IDItem BETWEEN 6 AND 10
-
--------------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------
